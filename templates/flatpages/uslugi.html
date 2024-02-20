@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+{% extends 'flatpages/default.html' %}
+<html lang="en">
+{% block content %}
+    <span class="text-body"> 
+    {{ flatpage.content }}
+    <br><br> <h3> REPEAT </h3><br><br>
+    {{ flatpage.content }}
+    </span>
+{% endblock content %}
+</html>
